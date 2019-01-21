@@ -41,12 +41,12 @@ public class TransaksiService {
         return transaksiOptional.get();
     }
 
-    @Transactional
-    public void pembelian(Transaksi transaksi){
-        transaksiRepository.updatePembelianProduk(
-                transaksi.getId(),
-                "41244"
-        );
-    }
+//    @Transactional
+//    public void pembelian(Transaksi transaksi){
+//        transaksiRepository.updatePembelianProduk(
+//                transaksi.getId(),
+//                "41244"
+//        );
+//    }
 
 }
