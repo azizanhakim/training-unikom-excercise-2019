@@ -30,7 +30,10 @@ public class DetailTransaksi {
     private Transaksi transaksi;
 
     @Column(name = "harga")
-    private String harga;
+    private Integer harga;
+
+    @Column(name = "qty")
+    private Integer qty;
 
     @Column(name = "tanggal_transaksi")
     private Timestamp timestamp;

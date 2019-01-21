@@ -24,7 +24,10 @@ public class Produk {
     private String nama;
 
     @Column(name = "harga", nullable = false)
-    private String harga;
+    private Integer harga;
+
+    @Column(name = "qty", nullable = false)
+    private Integer qty;
 
     @ManyToOne
     @JoinColumn(name = "toko_id", nullable = false)

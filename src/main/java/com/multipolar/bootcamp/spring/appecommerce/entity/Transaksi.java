@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -29,7 +28,7 @@ public class Transaksi {
     private Pelanggan pelanggan;
 
     @Column(name = "total_harga", nullable = false)
-    private String totalHarga;
+    private Integer totalHarga;
 
     @Column(name = "tanggal_transaksi")
     private Timestamp tanggalTransaksi;
