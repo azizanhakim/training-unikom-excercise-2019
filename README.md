@@ -72,7 +72,7 @@ Jawab: menurut saya, container/context itu sebagai wadah yang digunakan untuk me
     - ```@RestController```
     Jawab: anotasi @ResController merupakan versi khusus dari Controller. anotasi ini menyertakaan anotasi @Controller dan @ResponseBody sehingga dapat menyederhanakan implementasi dari Controller
     
-    - ```@RequestMapping``
+    - ```@RequestMapping```
     Jawab: anotasi @RequestMapping digunakan untuk memetakan permintaan web (web request) ke method-method yang ada di dalam kelas.
     
     - ```@GetMapping```
