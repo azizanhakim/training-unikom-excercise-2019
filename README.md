@@ -76,7 +76,6 @@ Jawab: menurut saya, container/context itu sebagai wadah yang digunakan untuk me
     Jawab: anotasi @RequestMapping digunakan untuk memetakan permintaan web (web request) ke method-method yang ada di dalam kelas.
     
     - ```@GetMapping```
-    
     Jawab: anotasi @GetMapping digunakan untuk memetakan permintaan web (web requests) pada request method GET pada method yang dipilih.
         
     - ```@PostMapping```
